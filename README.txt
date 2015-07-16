@@ -1,9 +1,9 @@
 
 Title: PerfSheet4 is a tool aimed at DBAs and Oracle performance analysts. It provides a simplified interface to extract and visualize Oracle AWR data using Excel pivot charts.
 
-Version: V3.7.1, February 2015 (the first PerfSheet4 release was in March 2013)
+Version: V3.7, February 2015, Latest updates v 3.7.2 July 2015 (the first PerfSheet4 release was in March 2013)
 
-Authors: Luca.Canali@cern.ch from an original idea and PerfSheet 3 by Tanel@TanelPoder.com
+Authors: Luca.Canali@cern.ch, rewritten from the original idea and implementation of PerfSheet 3 by Tanel@TanelPoder.com
 
 Contents: 
 

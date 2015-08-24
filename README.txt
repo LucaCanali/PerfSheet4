@@ -8,7 +8,7 @@ Authors: Luca.Canali@cern.ch, rewritten from the original idea and implementatio
 
 Contents: 
 
-   - PerfSheet4_v3.7.xlsm -> Main version of PerfSheet4, runs under Excel 2010 or 2013.
+   - PerfSheet4_v3.7.xlsm -> Main version of PerfSheet4, runs under Excel 2010 and Excel 2013.
 
    - PerfSheet4_v3.7_noActivex_controls.xlsm -> A lightweight version of PerfSheet4 modified by removing Activex Controls. This makes it easier to run on older versions of Excel and/or if there are compatility problems with Excel Activex Controls
 

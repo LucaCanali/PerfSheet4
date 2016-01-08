@@ -10,7 +10,7 @@
 --
 
 @@Perfsheet4_query_AWR_sysmetric.sql
-@@Perfsheet4_query_AWR_Waitclass_and_CPU.sql
+@@Perfsheet4_query_AWR_waitclass_and_CPU.sql
 @@Perfsheet4_query_AWR_service_stat.sql
 @@Perfsheet4_query_AWR_sysstat.sql
 @@Perfsheet4_query_AWR_system_event.sql

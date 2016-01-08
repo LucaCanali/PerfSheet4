@@ -19,7 +19,7 @@ prompt Dumping AWR data to file Perfsheet4_AWR_top5_waitevent_and_CPU_&myfilesuf
 prompt 
 set termout off
 
-spool Perfsheet4_AWR_Waitclass_and_CPU_&myfilesuffix..csv
+spool Perfsheet4_AWR_waitclass_and_CPU_&myfilesuffix..csv
 
 select snap_time, snap_id, instance_number, Wait_class, sum(Rate_timewaited) Rate_timewaited_per_Class 
 from (

@@ -4,16 +4,19 @@ A tool for DBAs and Oracle performance analysts.
 It provides a simplified interface to extract and visualize Oracle AWR data using Excel pivot charts.
 
 Author: Luca.Canali@cern.ch
-Created: March 2013. Latest updates July 2015.
+Created: March 2013, latest updates June 2016
 
 Blog entry: http://externaltable.blogspot.ch/2015/02/latest-updates-to-perfsheet4-tool-for.html
 
+Note: see also PerfSheet.js at https://github.com/LucaCanali/PerfSheet.js
+
 Contents:
 
-- [PerfSheet4_v3.7.xlsm](PerfSheet4_v3.7.xlsm), main version of PerfSheet4, runs on Windows for Excel 2010, Excel 2013 and Excel 2016.
-- [PerfSheet4_v3.7_noActivex_controls.xlsm](PerfSheet4_v3.7_noActivex_controls.xlsm), a lightweight version of PerfSheet4 modified by removing Activex Controls. This makes it easier to run on older versions of Excel and/or if there are compatility problems with Excel Activex Controls
+- [PerfSheet4_v3.7.2.xlsm](PerfSheet4_v3.7.2.xlsm), main version of PerfSheet4, runs on Windows for Excel 2010, Excel 2013 and Excel 2016
+- [PerfSheet4_v3.7.2_noActivex_controls.xlsm](PerfSheet4_v3.7.2_noActivex_controls.xlsm), a lightweight version of PerfSheet4 modified by removing Activex Controls. This makes it easier to run on older versions of Excel and/or if there are compatility problems with Excel Activex Controls
+- [PerfSheet4_v3.7.2_HPS](PerfSheet4_v3.7.2_HPS.xlsm), customized version by Hans-Peter and Mark Sloot. This vesion adds a filter mask to the UI. It also adds three more pre-defined queries, including a query for Statspack
 - [sqlplus_scripts](sqlplus_scripts), directory of selected scripts to extract data from AWR
-- [example_data](example_data), a few example data files to help girst-time users
+- [example_data](example_data), a few example data files to help first-time users
 
 Getting started video: http://youtu.be/sdvx4zB-fvo
 

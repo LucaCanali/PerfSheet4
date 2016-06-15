@@ -13,7 +13,7 @@ Contents:
 | ----------------------- | ------------------------------------------------------------------------------------------------------------
 | [PerfSheet4_v3.7.2](PerfSheet4_v3.7.2.xlsm)| Main version of PerfSheet4. Run with Excel, versions 2010, 2013, 2016. Windows 7/8.1/10.
 | [PerfSheet4_v3.7.2_noActivex_Controls](PerfSheet4_v3.7.2_noActivex_Controls.xlsm) | A lightweight version of PerfSheet4 modified by removing Activex Controls. This makes it easier to run on older versions of Excel and/or if there are compatility problems with Excel Activex controls.
-| [PerfSheet4_v3.7.2_HPS](PerfSheet4_v3.7.2_HPS.xlsm) | Customized version by Hans-Peter and Mark Sloot. This vesion adds a filter mask to the UI. It also adds three more pre-defined queries, including a query for Statspack.
+| [PerfSheet4_v3.7.2_HPS](PerfSheet4_v3.7.2_HPS.xlsm) | Customized version by Hans-Peter and Mark Sloot. This version adds a filter mask to the UI. It also adds three more pre-defined queries, including a query for Statspack.
 | [sqlplus_scripts](sqlplus_scripts) | Folder with example SQL scripts to extract data from AWR into csv files.
 | [example_data](example_data) | A few example csv files with AWR data.
 

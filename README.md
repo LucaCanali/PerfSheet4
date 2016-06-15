@@ -1,13 +1,10 @@
-# PerfSheet4 
+# PerfSheet4
 
-A tool for DBAs and Oracle performance analysts.
-It provides a simplified interface to extract and visualize Oracle AWR data using Excel pivot charts.
+A tool for DBAs and Oracle performance analysts.It provides a simplified interface to extract and visualize Oracle AWR data using Excel pivot charts.  
+Author: Luca.Canali@cern.ch  
+Created: March 2013, latest updates June 2016  
 
-Author: Luca.Canali@cern.ch
-Created: March 2013, latest updates June 2016
-
-Blog entry: http://externaltable.blogspot.ch/2015/02/latest-updates-to-perfsheet4-tool-for.html
-
+Blog entry: http://externaltable.blogspot.ch/2015/02/latest-updates-to-perfsheet4-tool-for.html  
 Note: see also PerfSheet.js at https://github.com/LucaCanali/PerfSheet.js
 
 Contents:

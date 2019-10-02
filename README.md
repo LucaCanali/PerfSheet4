@@ -8,15 +8,16 @@ Created: March 2013, updated June 2016, latest minor updates October 2019
 Get started:
 
 - download the repo and open PerfSheet4_v3.7.3 in Excel
-- play with visualization using csv files in the example_data folder
+- play with the provided examples:
+  - use "Load" to import csv files from the example_data folder
+  - use "Plot" to display data and experiment with the pre-defined graphs 
 - gather AWR data from your DBs for visualization:
   - option 1: run the queries from Excel, you will need Oracle instant client and ODBC driver installed
   - option 2: extract AWR data for visualization from your DBs using isqlplus and the scripts provided in sqlplus_scripts folder
-
 - **Getting started video: http://youtu.be/sdvx4zB-fvo**
 
-Blog entry: https://db-blog.web.cern.ch/blog/luca-canali/2015-02-latest-updates-perfsheet4-tool-oracle-awr-data-mining-and-visualization
-Note: see also PerfSheet.js at https://github.com/LucaCanali/PerfSheet.js  
+Blog entry: https://db-blog.web.cern.ch/blog/luca-canali/2015-02-latest-updates-perfsheet4-tool-oracle-awr-data-mining-and-visualization  
+Note: a version of this tool that runs in the browser (no need for Exvel) is PerfSheet.js at https://github.com/LucaCanali/PerfSheet.js  
 
 Contents:  
 
@@ -29,7 +30,10 @@ Contents:
 | [example_data](example_data) | A few example csv files with AWR data.
 
 
-![Example PerfSheet4 interface](http://3.bp.blogspot.com/-Vd5j72FpdIU/VOJWn6i37HI/AAAAAAAAEoM/N8MBLUhnmQI/s1600/blog_PerfSheet4_v37.png)
-![Example PerfSheet4 PivotChart](http://3.bp.blogspot.com/-RwUARWt1gNk/VN5osDj-rYI/AAAAAAAAEns/O1l_kbKhEtc/s1600/blog_perfsheet4_v37_graph_IO%2B_annotated.png)
+Screen shots:
+
+![Example PerfSheet4 interface](http://3.bp.blogspot.com/-Vd5j72FpdIU/VOJWn6i37HI/AAAAAAAAEoM/N8MBLUhnmQI/s1600/blog_PerfSheet4_v37.png)  
+
+![Example PerfSheet4 PivotChart](http://3.bp.blogspot.com/-RwUARWt1gNk/VN5osDj-rYI/AAAAAAAAEns/O1l_kbKhEtc/s1600/blog_perfsheet4_v37_graph_IO%2B_annotated.png)  
 
 

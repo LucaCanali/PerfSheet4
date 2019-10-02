@@ -15,7 +15,7 @@ Get started:
 
 - **Getting started video: http://youtu.be/sdvx4zB-fvo**
 
-Blog entry: http://externaltable.blogspot.ch/2015/02/latest-updates-to-perfsheet4-tool-for.html  
+Blog entry: https://db-blog.web.cern.ch/blog/luca-canali/2015-02-latest-updates-perfsheet4-tool-oracle-awr-data-mining-and-visualization
 Note: see also PerfSheet.js at https://github.com/LucaCanali/PerfSheet.js  
 
 Contents:  

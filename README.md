@@ -13,7 +13,7 @@ Get started:
   - use "Plot" to display data and experiment with the pre-defined graphs 
 - gather AWR data from your DBs for visualization:
   - option 1: run the queries from Excel, you will need Oracle instant client and ODBC driver installed
-  - option 2: extract AWR data for visualization from your DBs using isqlplus and the scripts provided in sqlplus_scripts folder
+  - option 2: extract AWR data from your DBs into csv files using sqlplus with the scripts provided in sqlplus_scripts folder, then "Load" the csv files for visualization with PerfSheet4 
 - **Getting started video: http://youtu.be/sdvx4zB-fvo**
 
 Blog entry: https://db-blog.web.cern.ch/blog/luca-canali/2015-02-latest-updates-perfsheet4-tool-oracle-awr-data-mining-and-visualization  

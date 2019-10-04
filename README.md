@@ -3,7 +3,8 @@
 A tool for Oracle performance analysts.  
 It provides a simplified interface to extract and visualize Oracle AWR data using Excel pivot charts.  
 Author: Luca.Canali@cern.ch 
-Created: March 2013, updated June 2016, latest minor updates October 2019  
+Created: March 2013, updated June 2016, latest minor updates: October 2019  
+Note: an alternative version of this tool, that runs in the browser (no need for Excel) is [PerfSheet.js](https://github.com/LucaCanali/PerfSheet.js)
 
 Get started:
 
@@ -17,7 +18,6 @@ Get started:
 - **Getting started video: http://youtu.be/sdvx4zB-fvo**
 
 Blog entry: https://db-blog.web.cern.ch/blog/luca-canali/2015-02-latest-updates-perfsheet4-tool-oracle-awr-data-mining-and-visualization  
-Note: a version of this tool that runs in the browser (no need for Exvel) is PerfSheet.js at https://github.com/LucaCanali/PerfSheet.js  
 
 Contents:  
 

@@ -1,12 +1,16 @@
 # PerfSheet4 - A tool for Oracle RDBMS performance analysis
 
 PerfSheet4 provides a graphical interface to extract and visualize Oracle workload and performance metrics using MS Excel as a front end.
-Oracle metrics are extracted from AWR repository (note this requires the dyagnostic pack licensing).
+Oracle metrics are extracted from AWR repository (note this requires the diagnostic pack licensing).
 Metrics are visualized using Excel pivot charts.
   
 Author: Luca.Canali@cern.ch  
-Created: March 2013, updated June 2016. Latest minor updates: October 2019  
-Tested: tested using Excel 365 and Excel 2016 on Windows 10  
+Latest minor updates: October 2019  
+Created: March 2013, updated June 2016  
+Tested: 
+  - tested using Excel 365 and Excel 2016 on Windows 10
+  - tested with Oracle 19c and 11g
+  
 Note: an alternative version of this tool, that runs in the browser (so does not require Excel) is [PerfSheet.js](https://github.com/LucaCanali/PerfSheet.js)
 
 Get started:
@@ -16,12 +20,12 @@ Get started:
   - use "Load" to import csv files from the example_data folder
   - use "Plot" to display data and experiment with the pre-defined graphs 
 - run it on you Oracle DBs: gather AWR data and generate the plots:
-  - option 1: run the AWR data extraction queries from Excel.  
+  - **option 1:** run the AWR data extraction queries from Excel.  
     For this you will need the Oracle instant client and ODBC driver installed on the machine running PerfSheet4
      - to install the ODBC driver, download from [Oracle instant client downloads](https://www.oracle.com/database/technologies/instant-client/downloads.html)
      - run `odbc_install.exe` (note you will need a 64 bit odbc if you use Excel 64 bit).
      - configure "ODBC name" in the PerfSheet4 interface (check the name using the ODBC Data Source Administrator in Windows)
-  - option 2: extract AWR data from your DBs into csv files using the sqlplus scripts provided
+  - **option 2:** extract AWR data from your DBs into csv files using the sqlplus scripts provided
      - browser the sqlplus_scripts directory and run the script/scripts of interest
      - from the PerfSheet4 interface, use "Load" button to load the csv file for visualization with PerfSheet4. 
 - **Getting started video: http://youtu.be/sdvx4zB-fvo**
@@ -33,8 +37,8 @@ Contents:
 | Script name             | Short description
 | ----------------------- | ------------------------------------------------------------------------------------------------------------
 | **[PerfSheet4_v3.7.3](PerfSheet4_v3.7.3.xlsm)**| **Main version of PerfSheet4. Tested with Excel 365 and 2016 on Windows 10.**
-| [PerfSheet4_v3.7.3_noActivex_Controls](PerfSheet4_v3.7.3_noActivex_Controls.xlsm) | A lightweight version of PerfSheet4 modified by removing Activex Controls. This makes it easier to run on older versions of Excel and/or if there are compatility problems with Excel Activex controls.
-| [PerfSheet4_v3.7.2_HPS](PerfSheet4_v3.7.2_HPS.xlsm) | Customized version by Hans-Peter and Mark Sloot. This version adds a filter mask to the UI. It also adds three more pre-defined queries, including a query for Statspack.
+| [more/PerfSheet4_v3.7.3_noActivex_Controls](more/PerfSheet4_v3.7.3_noActivex_Controls.xlsm) | A lightweight version of PerfSheet4 modified by removing Activex Controls. This makes it easier to run on older versions of Excel and/or if there are compatility problems with Excel Activex controls.
+| [more/PerfSheet4_v3.7.2_HPS](more/PerfSheet4_v3.7.2_HPS.xlsm) | Customized version by Hans-Peter and Mark Sloot. This version adds a filter mask to the UI. It also adds three more pre-defined queries, including a query for Statspack.
 | [sqlplus_scripts](sqlplus_scripts) | Folder with example SQL scripts to extract data from AWR into csv files.
 | [example_data](example_data) | A few example csv files with AWR data.
 

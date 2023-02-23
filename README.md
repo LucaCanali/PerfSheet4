@@ -31,10 +31,17 @@ Note: an alternative version of this tool, that runs in the browser (so does not
     For this you will need the Oracle instant client and ODBC driver installed on the machine running PerfSheet4
      - to install the ODBC driver, download from [Oracle instant client downloads](https://www.oracle.com/database/technologies/instant-client/downloads.html)
      - run `odbc_install.exe` (note you will need a 64 bit odbc if you use Excel 64 bit).
-     - configure "ODBC name" in the PerfSheet4 interface (check the name using the ODBC Data Source Administrator in Windows)
+     - configure "ODBC name" in the PerfSheet4 interface.
+       Note, you can find the ODBC name using the ODBC Data Source Administrator in Windows:
+       go to ODBC Administrator -> drivers -> look for the installed Oracle ODBC driver name
   - **option 2:** extract AWR data from your DBs into csv files using the sqlplus scripts provided
      - browser the sqlplus_scripts directory and run the script/scripts of interest
      - from the PerfSheet4 interface, use "Load" button to load the csv file for visualization with PerfSheet4. 
+- Multiple DBIDs
+     - You will need to do some (simple) updates if your AWR repository has multiple DBIDs (I typically work with only 1 DB per AWR repository).
+       If you look at the scripts you will find commented out "--ss.dbid, --uncomment if you have multiple dbid in your AWR"
+- PDBs
+     - Oracle container databases are currently not supported, it's a matter of improving the scripts and is in the TODO list.
 - **Getting started video: http://youtu.be/sdvx4zB-fvo**
 
 Blog entry: https://db-blog.web.cern.ch/blog/luca-canali/2015-02-latest-updates-perfsheet4-tool-oracle-awr-data-mining-and-visualization  
